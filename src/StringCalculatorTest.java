@@ -22,6 +22,6 @@ public class StringCalculatorTest {
     }
     @Test
     public void testMultipleNumber() {
-        Assert.assertEquals(stringCalculator.Add("1,2,3,4"), 10);
+        Assert.assertEquals(stringCalculator.Add("1,2,3,4,5"), 15);
     }
 }
